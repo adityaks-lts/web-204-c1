@@ -50,6 +50,7 @@ body{
 
 .card-row{
     padding-left: 20%;
+    padding-bottom: 2%;
 }
 .shop-brand{
     padding-top: 50px;
@@ -57,17 +58,16 @@ body{
 }
 .form-space{
     background-image:  url("https://media.istockphoto.com/id/1063727164/video/multicolored-motion-gradient-background-shades-of-gray.jpg?s=640x640&k=20&c=ddlttXzOZzR92NVlL40I6Bu31FCjReuNDKAvnIZ85D4=")  ; 
-    /* box-sizing: border-box; */
-    /* background-image: inherit; */
+    background-repeat: no-repeat;
     padding-top: 20px;
     width: 100%;
     padding-bottom: 20px;
-    /* height: 70vh; */
+    background-size: 100% 100%;
 }
 form{
     border-radius: 10px;
     font-weight: bold;
-    padding: 10px;
+    padding: 15px;
     margin-left: 35%;
     margin-right: 35%;
     background-color: #f4f4f4;
@@ -109,6 +109,7 @@ form fieldset{
 }
 
 footer{
+    background-size: 100% 100%;
     background-color: #000000;
     height: 9vh;
 }
