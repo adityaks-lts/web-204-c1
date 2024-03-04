@@ -80,8 +80,68 @@
     </div>
 
     <div class="form-space">
-        
-    </div>
+        <form action="" method="get" class="form-example">
+            
+            <div class="form-elem">
+              <label for="email">Email: </label>
+              <input class="put-in" type="email" name="email" id="email" required />
+            </div>
+            
+            <div class="form-elem">
+                <label for="password">Password (min. 8 characters):</label>
+                <input class="put-in" type="password" name="password" id="password" minlength="8">
+            </div>
+            
+            <div class="form-elem">
+                <label for="Messege">Messege:</label>
+                <textarea class="mes-put" name="Messege" id="Messege" cols="30" rows="10"></textarea>
+            </div>
 
+            <div class="form-elem">
+                <label for="web-rating">Website Rating:</label>
+                <fieldset>
+                    <span class="web-opt">
+                        <input type="radio" id="Excellent" name="drone" value="Excellent"/>
+                        <span for="">Excellent</span>
+                    </span>
+                    <span class="web-opt">
+                        <input type="radio" id="Good" name="drone" value="Good"/>
+                        <span for="">Good</span>
+                    </span>
+                    <span class="web-opt">
+                        <input type="radio" id="Average" name="drone" value="Average"/>
+                        <span for="">Average</span>
+                    </span>
+                    <span class="web-opt">
+                        <input type="radio" id="Poor" name="drone" value="Poor"/>
+                        <span for="">Poor</span>
+                    </span>
+                </fieldset>
+            </div>
+
+            <div class="form-elem">
+                <label for="age">Age (10-100):</label>
+                <input class="put-in" type="number" id="age" min="10" max="100" required/>
+            </div>
+
+            <div class="form-elem">
+                <label for="web-url">Website URL <sub>(optional)</sub>:</label>    
+                <input class="put-in" type="url" id="web-url">
+            </div>
+
+            <div class="form-elem">
+                <input type="checkbox" id="i-accept" name="i-accept" required />
+                <span for="agree">I agree to the terms and conditions</span>
+            </div>
+
+            <div class="form-elem">
+              <input class="submit" type="submit" value="Submit" />
+            </div>
+        </form>
+          
+    </div>
+    <footer>
+        
+    </footer>
     </body>
 </html>
