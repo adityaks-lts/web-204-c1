@@ -36,8 +36,8 @@ body{
 .card{
     display: inline-block;
     background-color: white;
-    height: 30vh;
-    width: 24%;
+    height: 32vh;
+    width: 17%;
     box-sizing: border-box;
     margin: 10px;
 }
